@@ -17,7 +17,7 @@ const Courses = () => {
             <img src='https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2018/08/search-bg.jpg' alt="" />
             <h3 className="text-center p-5 m-5">Choose your Course</h3>
 
-            {/* here */}
+            {/* courses card */}
 
             <div className="teams">
         <div className="row">
@@ -40,7 +40,7 @@ const Courses = () => {
         </div>
       </div>
 
-            {/* here */}
+            {/* courses card end */}
             
         </div>
     );

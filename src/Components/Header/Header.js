@@ -15,7 +15,6 @@ const Header = () => {
 
             <NavLink className="nav" to="/About">About</NavLink>
       
-      
         </div>
     );
 };

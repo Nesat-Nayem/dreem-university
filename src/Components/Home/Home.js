@@ -14,6 +14,8 @@ const Home = () => {
             <h1>Dreem Universite</h1>
             </div>
 
+        {/* slider */}
+
             <div>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
@@ -104,7 +106,7 @@ const Home = () => {
             </div>
 
 
-        {/* here */}
+        {/* courses card  */}
             <div>
             <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
@@ -149,7 +151,7 @@ const Home = () => {
             </div>
             </div>
             </div>
-            {/* here */}
+            {/* courses card end */}
         </div>
         
     );

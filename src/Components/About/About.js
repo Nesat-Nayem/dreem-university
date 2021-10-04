@@ -16,7 +16,7 @@ const About = () => {
 
                 
 
-                {/* card */}
+                {/* bootstrap card */}
 
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
@@ -60,19 +60,11 @@ const About = () => {
                         </div>
                     </div>
  
- 
+    </div>
 
-
-</div>
-
-                {/* card */}
-
-
-                
-
+                {/* card end */}
 
             </div>
-
 
         </div>
     );
