@@ -6,10 +6,10 @@
     
       "name": "Analytics",
       "Masters": "Master of Science",
-      "Unit": "Physical Sciences",
+      "Unit": "Carol Dawson (PhD)",
       "TuitionFees": "5000",
       "id": "PuW 5a6 84l8 33 P",
-      "picture": "https://www.nus.edu.sg/images/default-source/corporate/homepage-refresh/20211001/tl1.jpg?t=1633073891"
+      "picture": "https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/single_course_thumb_24.png"
      
     },
 
@@ -19,11 +19,11 @@
 
       "name": "Comparative Literature",
       "Masters": "Master of Arts Program in the Humanities",
-      "Unit": "Humanities",
+      "Unit": "John Hagensy (PhD)",
       "TuitionFees": "5500",
       
       "id": "PuW 5a6 848 3p3 P",
-      "picture": "https://bigdataconference.eu/wp-content/uploads/2021/07/Bigdata_europe_speaker_Diana-Gabrielyan.png"
+      "picture": "https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/single_course_thumb_34.png"
       
     },
     
@@ -31,10 +31,10 @@
      
       "name": "Computer Science",
       "Masters": "Master of Science",
-      "Unit": "Physical Sciences",
+      "Unit": "Angelina Jones (PhD)",
       "TuitionFees": "5000",
       "id": "PuW 5al6 848 33 P",
-      "picture": "https://bigdataconference.eu/wp-content/uploads/2021/07/Bigdata_europe_speaker_Julien-Genovese.png"
+      "picture": "https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/single_course_thumb_44.png"
       
     },
     
@@ -42,12 +42,12 @@
     
       "name": "Doctor of Comparative Law",
       "Masters": "D.Comp.L",
-      "Unit": "Law",
+      "Unit": "Carol Dawson (PhD)",
       "TuitionFees": "4500",
      
       "id": "PuW 5a6 848 33 P",
       
-      "picture":"https://demo.themewinter.com/wp/privsan/wp-content/uploads/2020/01/team6.png"
+      "picture":"https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2016/06/shutterstock_135948689-600x333.jpg"
     },
     
     
@@ -55,11 +55,11 @@
       
       "name": "Geophysical Sciences",
       "Masters": "Master of Science in the Physical Sciences Division",
-      "Unit": "Physical Sciences",
+      "Unit": "Angelina Jones (PhD)",
       "TuitionFees": "6000",
      
       "id": "PuW 5a6 848 3653 P",
-      "picture": "https://demo.themewinter.com/wp/privsan/wp-content/uploads/2020/01/team7.png"
+      "picture": "https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2018/08/shutterstock_218235004-600x333.jpg"
     },
 
 
@@ -67,42 +67,42 @@
       
       "name": "History of Christianity",
       "Masters": "Master of Arts in Religious Studies",
-      "Unit": "Divinity",
+      "Unit": "Albert Coman (PhD)",
       "TuitionFees": "5900",
      
       "id": "PuW 5a6 848 365fd3 P",
-      "picture": "https://demo.themewinter.com/wp/privsan/wp-content/uploads/2020/01/team5.png"
+      "picture": "https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2016/06/shutterstock_481869205-600x333.jpg"
     },
 
     {
       
       "name": "International Relations",
       "Masters": "Master of Arts",
-      "Unit": "Social Sciences",
+      "Unit": "Carol Dawson (PhD)",
       "TuitionFees": "7000",
      
       "id": "PuW 5a6 558 365fd3 P",
-      "picture": "https://virtualspeech.com/img/motivational-speakers/Amy-Purdy.jpg"
+      "picture": "https://www.tsinghua.edu.cn/en/images/21/04/09/16clqag7wr/campus05.jpg"
     },
     {
       
       "name": "Medical Scientist Training Program",
       "Masters": "M.D./Ph.D.",
-      "Unit": "Pritzker",
+      "Unit": "Ross Leary",
       "TuitionFees": "8000",
      
       "id": "PuW 5a6 848 365fdsd3 P",
-      "picture": "https://virtualspeech.com/img/motivational-speakers/nick-vujicic.jpg"
+      "picture": "https://www.tsinghua.edu.cn/en/script/campuwwws04.jpg"
     },
     {
       
       "name": "Master of Public Health (MPH)",
       "Masters": "Master of Public Health",
-      "Unit": "Biological Sciences",
+      "Unit": "Alina Desa",
       "TuitionFees": "7000",
      
       "id": "PuW 5a6 84w8 365fdsd3 P",
-      "picture": "https://virtualspeech.com/img/motivational-speakers/Darren-Hardy.jpg"
+      "picture": "https://www.tsinghua.edu.cn/en/images/21/04/09/16clqag7wr/campus03.jpg"
     }
     
     ]

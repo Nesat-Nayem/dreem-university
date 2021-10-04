@@ -1,5 +1,5 @@
 import './Courses.css'
-import searceImg from '../../img/search-bg.jpg'
+
 import { useEffect, useState } from 'react';
 
 
@@ -14,8 +14,8 @@ const Courses = () => {
    },[])
     return (
         <div className="container all-teams">
-            <img src={searceImg} alt="" />
-            <h3>Choose your Course</h3>
+            <img src='https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2018/08/search-bg.jpg' alt="" />
+            <h3 className="text-center p-5 m-5">Choose your Course</h3>
 
             {/* here */}
 
@@ -28,10 +28,10 @@ const Courses = () => {
                   <img className="img-fluid" src={progrums.picture} alt="" />
                 </div>
                 <div className="text-area">
-                  <h4>{progrums.name}</h4>
-                  <p>{progrums.Masters}</p>
-                  <p>League: {progrums.Unit}</p>
-                  <p>country: {progrums.TuitionFees}</p>
+                  <h4>Department : {progrums.name}</h4>
+                  <p>Level : {progrums.Masters}</p>
+                  <p>Instructor : {progrums.Unit}</p>
+                  <p>Yearly Tuition Fees: {progrums.TuitionFees}$</p>
                   
                 </div>
               </div>

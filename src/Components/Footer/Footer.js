@@ -5,7 +5,7 @@ const Footer = () => {
         
             <footer className="fot text-center mt-4 pt-3"> 
 
-            <p>all write reseverd dreem university</p>
+            <p>&copy; All rights reserved Dreem University</p>
             
             </footer>
         

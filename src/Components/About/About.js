@@ -9,7 +9,7 @@ const About = () => {
         <div className="container">
             <img src="https://www.tsinghua.edu.cn/en/image/inner1_bn.jpg" alt="" />
 
-            <h1>Dreem Universite is one of the hiest ranking Universite in the world our teching quality is defrent other all...</h1>
+            <h1 className="text-center m-5 p-5">Dreem Universite Is One Of The Heist Ranking Universite In The World Our Teching Quality Is Defrent Other All...</h1>
 
             <div>
 

@@ -1,9 +1,10 @@
 import React from 'react';
+import './NotFound.css'
 
 const NotFound = () => {
     return (
-        <div>
-            <h1> 404 you are now out of notwork go any ware</h1>
+        <div className="text-center margin  p-5">
+            <h1> 404 This Page Is Not Available</h1>
         </div>
     );
 };
