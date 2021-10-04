@@ -1,0 +1,110 @@
+{
+
+ "results":[
+
+    {
+    
+      "name": "Analytics",
+      "Masters": "Master of Science",
+      "Unit": "Physical Sciences",
+      "TuitionFees": "5000",
+      "id": "PuW 5a6 84l8 33 P",
+      "picture": "https://www.nus.edu.sg/images/default-source/corporate/homepage-refresh/20211001/tl1.jpg?t=1633073891"
+     
+    },
+
+    
+    
+    {
+
+      "name": "Comparative Literature",
+      "Masters": "Master of Arts Program in the Humanities",
+      "Unit": "Humanities",
+      "TuitionFees": "5500",
+      
+      "id": "PuW 5a6 848 3p3 P",
+      "picture": "https://bigdataconference.eu/wp-content/uploads/2021/07/Bigdata_europe_speaker_Diana-Gabrielyan.png"
+      
+    },
+    
+    {
+     
+      "name": "Computer Science",
+      "Masters": "Master of Science",
+      "Unit": "Physical Sciences",
+      "TuitionFees": "5000",
+      "id": "PuW 5al6 848 33 P",
+      "picture": "https://bigdataconference.eu/wp-content/uploads/2021/07/Bigdata_europe_speaker_Julien-Genovese.png"
+      
+    },
+    
+    {
+    
+      "name": "Doctor of Comparative Law",
+      "Masters": "D.Comp.L",
+      "Unit": "Law",
+      "TuitionFees": "4500",
+     
+      "id": "PuW 5a6 848 33 P",
+      
+      "picture":"https://demo.themewinter.com/wp/privsan/wp-content/uploads/2020/01/team6.png"
+    },
+    
+    
+    {
+      
+      "name": "Geophysical Sciences",
+      "Masters": "Master of Science in the Physical Sciences Division",
+      "Unit": "Physical Sciences",
+      "TuitionFees": "6000",
+     
+      "id": "PuW 5a6 848 3653 P",
+      "picture": "https://demo.themewinter.com/wp/privsan/wp-content/uploads/2020/01/team7.png"
+    },
+
+
+    {
+      
+      "name": "History of Christianity",
+      "Masters": "Master of Arts in Religious Studies",
+      "Unit": "Divinity",
+      "TuitionFees": "5900",
+     
+      "id": "PuW 5a6 848 365fd3 P",
+      "picture": "https://demo.themewinter.com/wp/privsan/wp-content/uploads/2020/01/team5.png"
+    },
+
+    {
+      
+      "name": "International Relations",
+      "Masters": "Master of Arts",
+      "Unit": "Social Sciences",
+      "TuitionFees": "7000",
+     
+      "id": "PuW 5a6 558 365fd3 P",
+      "picture": "https://virtualspeech.com/img/motivational-speakers/Amy-Purdy.jpg"
+    },
+    {
+      
+      "name": "Medical Scientist Training Program",
+      "Masters": "M.D./Ph.D.",
+      "Unit": "Pritzker",
+      "TuitionFees": "8000",
+     
+      "id": "PuW 5a6 848 365fdsd3 P",
+      "picture": "https://virtualspeech.com/img/motivational-speakers/nick-vujicic.jpg"
+    },
+    {
+      
+      "name": "Master of Public Health (MPH)",
+      "Masters": "Master of Public Health",
+      "Unit": "Biological Sciences",
+      "TuitionFees": "7000",
+     
+      "id": "PuW 5a6 84w8 365fdsd3 P",
+      "picture": "https://virtualspeech.com/img/motivational-speakers/Darren-Hardy.jpg"
+    }
+    
+    ]
+
+}

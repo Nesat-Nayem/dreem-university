@@ -10,6 +10,7 @@ import Campus from './Components/Campus/Campus';
 import About from './Components/About/About';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import NotFound from './Components/NotFound/NotFound';
 
 
 function App() {
@@ -20,33 +21,39 @@ function App() {
       <Header></Header>
       <Switch>
         
+      <Route exact path="/">
+        <Home></Home>
+      </Route>
        
-      <Route path="/Home">
+      <Route exact path="/Home">
         <Home></Home>
 
       </Route>
 
-      <Route path="/Courses">
+      <Route exact path="/Courses">
         <Courses></Courses>
 
       </Route>
 
 
-      <Route path="/Research">
+      <Route exact path="/Research">
         <Research></Research>
 
       </Route>
 
-      <Route path="/Campus">
+      <Route exact path="/Campus">
         <Campus></Campus>
 
       </Route>
 
-      <Route path="/About">
+      <Route exact path="/About">
         <About></About>
 
       </Route>
 
+      <Route path="*">
+        <NotFound></NotFound>
+      </Route>
 
         
       
