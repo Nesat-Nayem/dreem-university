@@ -8,7 +8,7 @@ const Campus = () => {
             <img className="img-fluid" src="https://caltech-prod.s3.amazonaws.com/main/images/convocation.2e16d0ba.fill-1600x900-c100.jpg" alt="" />
 
             <div>
-                <h1 className="m-2 p-5">WE OFFER THE WORLD FIRST CLASS CAMPUS FACILITIES FOR OUR STUDENT</h1>
+                <h1 className="m-2 mainText p-5">WE OFFER THE WORLD FIRST CLASS CAMPUS FACILITIES FOR OUR STUDENT</h1>
 
             <div className="row row-cols-1 row-cols-md-2 g-4">
                 <div className="col">

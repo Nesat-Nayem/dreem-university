@@ -1,0 +1,112 @@
+{
+
+    "home":[
+   
+       {
+       
+         "name": "Physics",
+         "Masters": "4th Grade",
+         "Unit": "Carol Dawson",
+         "Credit" : "4.000",
+         "TuitionFees": "5000",
+         "id": "PuW 5a6 84l68 33 P",
+         "picture": "https://a6e8z9v6.stackpathcdn.com/kingster/highschool/wp-content/uploads/2018/08/shutterstock_177301904-700x450.jpg"
+        
+       },
+   
+       
+       
+       {
+   
+         "name": "Chemistry",
+         "Masters": "2rd Grade",
+         "Unit": "Alan Smith",
+         "Credit" : "3.000",
+         "TuitionFees": "5500",
+         
+         "id": "PuW 5a6 848 3p43 P",
+         "picture": "https://a6e8z9v6.stackpathcdn.com/kingster/highschool/wp-content/uploads/2019/06/shutterstock_89254516-700x450.jpg"
+         
+       },
+       
+       {
+        
+         "name": "Engineering",
+         "Masters": "3rd Grade",
+         "Unit": "Angelina Jones",
+         "Credit" : "4.000",
+         "TuitionFees": "5000",
+         "id": "PuW 5al6 848 363 P",
+         "picture": "https://a6e8z9v6.stackpathcdn.com/kingster/highschool/wp-content/uploads/2018/08/shutterstock_134777864-700x450.jpg"
+         
+       },
+       
+       {
+       
+         "name": "Anatomy",
+         "Masters": "2rd Grade",
+         "Unit": "Jane Doe",
+         "Credit" : "3.000",
+         "TuitionFees": "4500",
+        
+         "id": "PuW 5a6 848 333 P",
+         
+         "picture":"https://a6e8z9v6.stackpathcdn.com/kingster/highschool/wp-content/uploads/2019/06/shutterstock_1005896620-700x450.jpg"
+       }
+
+      
+
+
+
+
+
+
+       
+       
+       ],
+
+    "techers":[
+   
+       {
+       
+         "techerName": "JOHN VETTORI",
+         "Position":"Founder & Principle",
+         "id": "PuW 5a6 846l68 33 P",
+         "img": "https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/our_faculties_16.jpg"
+        
+       },
+   
+       
+       
+       {
+   
+        "techerName": "LUCY MARTIN",
+        "Position":"Vice Principle",
+         
+         "id": "PuW 5a6 848 3p443 P",
+         "img": "https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/our_faculties_24.jpg"
+         
+       },
+       
+       {
+        
+        "techerName": "CHRIS EVANS",
+        "Position":"Mathematics Professor",
+         "id": "PuW 5al6 848 3673 P",
+         "img": "https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/our_faculties_34.jpg"
+         
+       },
+       
+       {
+       
+        "techerName": "ROSE MARTIN",
+        "Position":"Biology Professor",
+        
+         "id": "PuW 5a6 848 3333 P",
+         
+         "img":"https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/our_faculties_44.jpg"
+       }
+       
+       ]
+   
+   }

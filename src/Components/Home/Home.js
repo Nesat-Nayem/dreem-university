@@ -4,17 +4,30 @@ import './Home.css'
 
 import first from '../../img/inner1_bn2.jpg'
 import second from '../../img/inner1_bn.jpg'
+import { useEffect, useState } from 'react';
+
 
 const Home = () => {
+    const[homeData, setHomeData] = useState([])
+    const[techData, setTechData]= useState([])
 
+    useEffect(()=>{
+        fetch('home.json')
+        .then(res => res.json())
+        .then(data=> {
+            setHomeData(data.home);
+            setTechData(data.techers);
+        })
+
+    },[])
     return (
         
         <div className="container">
             <div>
-            <h1>Dreem Universite</h1>
+            <h1 className="mainText">Dreem Universite</h1>
             </div>
 
-        {/* slider */}
+        {/* slider start */}
 
             <div>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -43,115 +56,65 @@ const Home = () => {
                 </div>
             </div>
 
-            <h1 className="text-center m-p p-5">Our Latest Programs or Courses</h1>
+        {/* slider end */}
 
+            <h1 className="text-center tx-color m-p p-5">Our Trending Programs or Courses</h1>
+
+        {/* Courses area start */}
 
             <div>
-            <div className="row row-cols-1 row-cols-md-2 g-4">
-                <div className="col">
-                    <div className="card">
-                    <img src="https://a6e8z9v6.stackpathcdn.com/kingster/highschool/wp-content/uploads/2019/06/slider-1-1.jpg" className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h3 className="card-title">Courses Explore The Practice Of Teaching</h3>
-                        <h5 className="card-text">Level : Undergraduate</h5>
-                        <h5>Instructor : Carol Dawson (PhD)</h5>
-                       
-                        <h5>Yearly Tusion fees : 5000 $</h5>
+                <div className="row">
+                {homeData?.map((homeDatas) => (
+                    <div key={homeDatas.id} className="col-md-6">
+                    <div className="cart">
+                        <div className="cart-details">
+                        <img className="img-fluid" src={homeDatas.picture} alt="" />
+                        </div>
+                        <div className="text-area text-start ms-4 mt-4">
+                        <h4 className="text-danger fw-bold">{homeDatas.name}</h4>
+                        <p> <span className="fw-bold">Level</span> : {homeDatas.Masters}</p>
+                        <p> <span className="fw-bold">Instructor</span> : {homeDatas.Unit}</p>
+                        <p> <span className="fw-bold">Credit</span>  : {homeDatas.Credit}</p>
+                        <p> <span className="fw-bold">Tuition Fees</span>: {homeDatas.TuitionFees} $</p>
+                        </div>
                     </div>
                     </div>
-                </div>
-                <div className="col">
-                    <div className="card">
-                    <img src="https://a6e8z9v6.stackpathcdn.com/kingster/highschool/wp-content/uploads/2019/06/slider-2.jpg" className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                    <h3 className="card-title">Art Of Teaching, Planning Management In Schools</h3>
-                        <h5 className="card-text">Level : Graduate</h5>
-                        <h5>Instructor : John Hagensy (PhD)</h5>
-                       
-                        <h5>Yearly Tusion fees : 7000 $</h5>
-                    </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card">
-                    <img src="https://html.webinane.com/koula/assets/images/gallery4.jpg" className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                    <h3 className="card-title">University, Including In Education</h3>
-                        <h5 className="card-text">Level : Postgraduate</h5>
-                        <h5>Instructor : Coil Lina</h5>
-                        
-                        <h5>Yearly Tusion fees : 9000 $</h5>
-                    </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card">
-                    <img src="https://html.webinane.com/koula/assets/images/gallery5.jpg" className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                    <h3 className="card-title">A Broad Range Of Topics Educational Policy</h3>
-                        <h5 className="card-text">Level : Undergraduate</h5>
-                        <h5>Instructor : Miss Awara</h5>
-                       
-                        <h5>Yearly Tusion fees : 8500 $</h5>
-                    </div>
-                    </div>
-                </div>
-
+                ))}
                 </div>
             </div>
 
-            <div className="text-center m-5 p-5">
+        {/* courses area end */}
+
+           
+            <div className="text-center m-5 p-5 color">
                 <h1>Our Great Faculties</h1>
                 <h4>Well experienced staffs</h4>
             </div>
 
 
-        {/* courses card  */}
+        {/* special person area start */}
+
             <div>
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-                <div class="card">
-                <img src="https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/our_faculties_16.jpg" class="card-img-top c_hight" alt="..."/>
-                <div class="card-body">
-                    <h5 class="card-title">JOHN VETTORI</h5>
-                    <h6>Founder & Principle</h6>
-                   
-                </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                <img src="https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/our_faculties_24.jpg" class="card-img-top c_hight" alt="..."/>
-                <div class="card-body">
-                    <h5 class="card-title">LUCY MARTIN</h5>
-                    <h6>Vice Principle</h6>
-                    
-                </div>
+                <div className="row">
+                    {techData?.map((techDatas) => (
+                        <div key={techDatas.id}             className="col-md-3">
+                            <div className="col">
+                                <div className="card">
+                                    <img className="img-fluid card-img-top c_hight" src={techDatas.img} alt="" />
+                                </div>
+                                <div className="card-body ms-4 ">
+                                    <h5 className=" text fw-bold">{techDatas.techerName}</h5>
+                                    <h6 className="fw-bold">{techDatas.Position}</h6>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
-                <img src="https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/our_faculties_34.jpg" class="card-img-top c_hight" alt="..."/>
-                <div class="card-body">
-                    <h5 class="card-title">CHRIS EVANS</h5>
-                    <h6>Mathematics Professor</h6>
-                  
-                </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                <img src="https://premiumlayers.com/wpthemes/educampus/wp-content/uploads/2015/06/our_faculties_44.jpg" class="card-img-top c_hight" alt="..."/>
-                <div class="card-body">
-                    <h5 class="card-title">LUCY MARTIN</h5>
-                    <h6>Biology Professor</h6>
-                   
-                </div>
-                </div>
-            </div>
-            </div>
-            </div>
-            {/* courses card end */}
+
+        {/* special person area end */}                
+
         </div>
         
     );

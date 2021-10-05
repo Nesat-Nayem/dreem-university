@@ -15,7 +15,8 @@ const Courses = () => {
     return (
         <div className="container common">
             <img src='https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2018/08/search-bg.jpg' alt="" />
-            <h3 className="text-center p-5 m-5">Choose your Course</h3>
+
+            <h3 className="text-center fw-bold text-info p-5 m-5">Choose Your Favourite Course</h3>
 
             {/* courses card */}
 
@@ -28,7 +29,7 @@ const Courses = () => {
                   <img className="img-fluid" src={progrums.picture} alt="" />
                 </div>
                 <div className="text-area">
-                  <h4>Department : {progrums.name}</h4>
+                  <h4 className="text_color">Department : {progrums.name}</h4>
                   <p>Level : {progrums.Masters}</p>
                   <p>Instructor : {progrums.Unit}</p>
                   <p>Yearly Tuition Fees: {progrums.TuitionFees}$</p>

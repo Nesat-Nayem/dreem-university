@@ -9,7 +9,7 @@ const About = () => {
         <div className="container">
             <img className="img-fluid" src="https://www.indiaeducation.net/imagesvr_ce/4502/4%20College%20de%20Valleyfield.jpg" alt="" />
 
-            <h3 className="text-center m-5 p-5">Dreem is one of the most prestigious universities in the runing time. Through teaching, research and innovation, Dreem is committed to the advancement and well-being of the nation and the world.</h3>
+            <h3 className="text-center text_color m-5 p-5">Dreem is one of the most prestigious universities in the runing time. Through teaching, research and innovation, Dreem is committed to the advancement and well-being of the nation and the world.</h3>
 
             <div>
 

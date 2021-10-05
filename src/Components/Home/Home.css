@@ -1,3 +1,24 @@
 .c_hight{
     height: 400px;
 }
+
+.color h1{
+    color: #cf1066;
+}
+.color h4{
+    color: #189E74;
+}
+
+.text{
+    color: #DB2777;
+}
+
+.tx-color{
+    color:#ac306a;
+}
+
+.mainText{
+    color:#10B981;
+    font-weight: 700;
+
+}
