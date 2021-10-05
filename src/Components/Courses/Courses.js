@@ -23,7 +23,7 @@ const Courses = () => {
             <div className="teams">
         <div className="row">
           {progrum?.map((progrums) => (
-            <div key={progrum.id} className="col-md-4">
+            <div key={progrums.id} className="col-md-4">
               <div className="cart">
                 <div className="cart-details">
                   <img className="img-fluid" src={progrums.picture} alt="" />

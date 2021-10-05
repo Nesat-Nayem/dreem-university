@@ -1,0 +1,42 @@
+{
+
+    "campus":[
+   
+       {
+       
+         "title":"Student Activities",
+         "id": "PuW 5a6 845l8 3g3 P",
+         "picture": "https://www.tsinghua.edu.cn/en/publish/1g3.jpg"
+        
+       },
+   
+       
+       
+       {
+   
+         "title":"Student Experience",
+         "id": "PuW 5a6 8348 3pu3 P",
+         "picture": "https://www.tsinghua.edu.cn/en/image/campus_partnewks.jpg"
+         
+       },
+       
+       {
+        
+         "title":"Arts And Culture",
+         "id": "PyuW 5al6 848 353 P",
+         "picture": "https://www.tsinghua.edu.cn/en/image/870745D66A04DE65B62639141E6_8A565A73_11F62A.png"
+         
+       },
+       
+       {
+       
+         "title":"Student Activities",
+        
+         "id": "PuW 5a6 8hi8 33 P",
+         
+         "picture":"https://www.tsinghua.edu.cn/en/image/FF706A9DDCF626D6F6A409346D7_7AB0112C_12171B.png"
+       }
+       
+       ]
+   
+   }
