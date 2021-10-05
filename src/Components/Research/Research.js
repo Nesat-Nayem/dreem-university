@@ -6,7 +6,7 @@ import './Research.css'
 const Research = () => {
     return (
         <div className="container">
-            <img className="mb-5" src="https://www.development.ox.ac.uk/image/promotions/report-2017-18/world-class-labs-hero-banner.jpg" alt="" />
+            <img className="mb-5 img-fluid" src="https://engineering.stanford.edu/sites/default/files/styles/full-width-banner-short/public/materials-sci_apr.jpg?itok=N3lwdr0C" alt="" />
 
 
         <div>

@@ -13,7 +13,7 @@ const Courses = () => {
         .then(data => setProgum(data.results))
    },[])
     return (
-        <div className="container all-teams">
+        <div className="container common">
             <img src='https://a6e8z9v6.stackpathcdn.com/kingster/wp-content/uploads/2018/08/search-bg.jpg' alt="" />
             <h3 className="text-center p-5 m-5">Choose your Course</h3>
 

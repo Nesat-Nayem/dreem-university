@@ -7,9 +7,9 @@ import './About.css'
 const About = () => {
     return (
         <div className="container">
-            <img src="https://www.tsinghua.edu.cn/en/image/inner1_bn.jpg" alt="" />
+            <img className="img-fluid" src="https://www.indiaeducation.net/imagesvr_ce/4502/4%20College%20de%20Valleyfield.jpg" alt="" />
 
-            <h1 className="text-center m-5 p-5">Dreem Universite Is One Of The Heist Ranking Universite In The World Our Teching Quality Is Defrent Other All...</h1>
+            <h3 className="text-center m-5 p-5">Dreem is one of the most prestigious universities in the runing time. Through teaching, research and innovation, Dreem is committed to the advancement and well-being of the nation and the world.</h3>
 
             <div>
 
@@ -21,7 +21,7 @@ const About = () => {
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                        <img src="https://www.tsinghua.edu.cn/en/image/xinjiatihuanjjide02.jpg" className="card-img-top" alt="..."/>
+                        <img src="https://i.insider.com/598b43e6efe3df32008b498b?width=1000format=jpeg" className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">
                             General Information</h5>
@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                        <img src="https://www.tsinghua.edu.cn/en/image/about_img2.jpg" className="card-img-top" alt="..."/>
+                        <img src="https://i.insider.com/598b3fe2b9cd6c4c008b49ac?width=1000format=jpeg" className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">
                                 Anniversary Message</h5>
@@ -41,17 +41,18 @@ const About = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                        <img src="https://www.tsinghua.edu.cn/en/image/about_img5.jpg" className="card-img-top" alt="..."/>
+                        <img src="https://i.insider.com/598b44e5efe3df20008b4993?width=1000format=jpeg" className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">
-                                Current Administrators</h5>
+                                
+                                Former Presidents</h5>
                             <p className="card-text">we are so help full on our defreant country and we have give most prayerety on there we trit there as our familly member</p>
                         </div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="card">
-                        <img src="https://www.tsinghua.edu.cn/en/image/about_img4.jpg" className="card-img-top" alt="..."/>
+                        <img src="https://i.insider.com/598b42c4efe3df47008b4972?width=1000format=jpeg" className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">
                                 Facts and Figures</h5>
